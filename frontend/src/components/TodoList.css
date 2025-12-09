@@ -1,0 +1,50 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.todo-category-group {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+  border-left: 4px solid;
+  padding-left: 10px;
+}
+
+.category-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.category-count {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+}
+
+.empty-state p {
+  font-size: 1.1rem;
+}
+
